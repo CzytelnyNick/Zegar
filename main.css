@@ -1,0 +1,72 @@
+.circle
+{ 
+    height: 500px;
+    width: 530px;
+    /* box-shadow: 2px 2px black; */
+    border-radius: 100%;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    left: 750px;
+    transform: rotate(-90deg);
+}
+.min
+{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    width: 230px;
+    height: 0.1px;
+    border: 2px solid black;
+    background-color: black;
+    transform-origin: bottom left;
+}
+.h 
+{   
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    width: 150px;
+    height: 1px;
+    border: 2px solid red;
+    background: red;
+    transform-origin: bottom left;
+}
+.sec 
+{
+    transform-origin: bottom left;
+    
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    width: 230px;
+    height: 0.02px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+.btn
+{
+    width: 100px;
+    height: 100px;
+}
+.dot 
+{
+    position: absolute;
+    left: 242.5px;
+    top: 247px;
+    width: 10px;
+    height: 10px;
+
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.clock
+{
+    position: absolute;
+    left: -100px;
+    top: -95px;
+    height:700px;
+    width: 700px;
+}
